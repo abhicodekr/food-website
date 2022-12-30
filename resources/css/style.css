@@ -41,15 +41,66 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.btn {
+.btn:link,
+.btn:visited {
   display: inline-block;
   padding: 10px 30px;
   text-decoration: none;
   font-weight: 300;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
-.btn-full {
-  background-color: rgb(16, 201, 115);
+.btn-full:link,
+.btn-full:visited {
+  background-color: rgb(223, 43, 199);
   color: #fff;
-  border: 1px solid rgb(16, 201, 115);
+  border: 1px solid rgb(247, 7, 215);
   margin-right: 25px;
+}
+.btn-ghost:visited,
+.btn-ghost:link {
+  border: 1px solid rgb(223, 43, 199);
+  color: #fff;
+}
+.btn:hover,
+.btn:active {
+  background-color: rgb(223, 43, 199);
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid rgb(223, 43, 199);
+  color: #fff;
+}
+.btn-full:hover,
+.btn-full:active {
+  border: 1px solid rgb(223, 43, 199);
+}
+.logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  padding: 8px 0;
+  transition: border-bottom 0.7s;
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid rgb(223, 43, 199);
 }
