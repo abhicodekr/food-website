@@ -181,3 +181,37 @@ h3 {
 .section-features .long-copy {
   margin-bottom: 30px;
 }
+
+.works-step {
+  margin-bottom: 50px;
+  margin-right: 28px;
+}
+.steps-box:first-child {
+  text-align: center;
+  padding-right: 3%;
+  margin-top: 30px;
+}
+.steps-box:last-child {
+  padding-left: 3%;
+  margin-top: 70px;
+}
+.app-screen {
+  width: 40%;
+}
+.works-step div {
+  color: rgb(223, 43, 199);
+  border: 4px solid rgb(223, 43, 199);
+  display: inline-block;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+}
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
