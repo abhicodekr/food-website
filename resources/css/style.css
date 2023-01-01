@@ -175,6 +175,18 @@ h3 {
   transform: scale(1.04);
   opacity: 1;
 }
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix::after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 .section-meals {
   padding: 0;
 }
@@ -197,6 +209,7 @@ h3 {
 }
 .app-screen {
   width: 40%;
+  box-shadow: 10px 10px 5px #aaaaaa;
 }
 .works-step div {
   color: rgb(223, 43, 199);
@@ -207,11 +220,19 @@ h3 {
   width: 55px;
   text-align: center;
   padding: 5px;
+  margin-right: 25px;
   float: left;
   font-size: 150%;
+}
+.works-step:last-of-type {
+  margin-bottom: 80px;
 }
 .btn-app img {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+.section-steps {
+  background-color: #f4f4f4;
 }
