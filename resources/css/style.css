@@ -236,3 +236,22 @@ h3 {
 .section-steps {
   background-color: #f4f4f4;
 }
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.city-feature {
+  margin-bottom: 5px;
+}
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: rgb(223, 43, 199);
+  font-size: 120%;
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-right: 10px;
+}
