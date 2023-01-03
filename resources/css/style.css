@@ -19,6 +19,7 @@ html {
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("img/hero.jpg");
+  background-attachment: fixed;
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -209,7 +210,6 @@ h3 {
 }
 .app-screen {
   width: 40%;
-  box-shadow: 10px 10px 5px #aaaaaa;
 }
 .works-step div {
   color: rgb(223, 43, 199);
@@ -231,6 +231,10 @@ h3 {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
 }
 
 .section-steps {
@@ -254,4 +258,48 @@ h3 {
   vertical-align: middle;
   margin-top: -5px;
   margin-right: 10px;
+}
+a:link,
+a:visited {
+  color: rgb(223, 43, 199);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(223, 43, 199);
+}
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s, color 0.5s;
+}
+.section-testimonials {
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0, 0)),
+    url("img/back-customers.jpg");
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  margin-top: 40px;
+}
+cite {
+  font-size: 90%;
+  display: block;
+  margin-top: 25px;
+}
+cite img {
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+blockquote::before {
+  content: "\201c";
+  display: 500%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -3px;
 }
