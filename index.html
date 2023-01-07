@@ -14,6 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Open+Sans:wght@300&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="resources/css/style.css" />
+  <link rel="stylesheet" href="resources/css/queries.css">
 </head>
 
 <body>
@@ -428,7 +429,7 @@
             <label>&nbsp;</label>
           </div>
           <div class="col span-2-of-3">
-            <input type="submit" value="send-me">
+            <input class="send" type="submit" value="send-me">
           </div>
 
         </div>
@@ -453,10 +454,10 @@
       </div>
       <div class="col span-1-of-2">
         <ul class="social-links">
-          <li><ion-icon name="logo-facebook"></ion-icon></li>
-          <li><ion-icon name="logo-twitter"></ion-icon></li>
-          <li><ion-icon name="logo-google"></ion-icon></li>
-          <li><ion-icon name="logo-instagram"></ion-icon></li>
+          <li><ion-icon class="fb" name="logo-facebook"></ion-icon></li>
+          <li><ion-icon class="twitter" name="logo-twitter"></ion-icon></li>
+          <li><ion-icon class="google" name="logo-google"></ion-icon></li>
+          <li><ion-icon class="insta" name="logo-instagram"></ion-icon></li>
         </ul>
       </div>
 
@@ -469,9 +470,10 @@
     </div>
 
   </footer>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
