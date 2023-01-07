@@ -205,9 +205,12 @@ h3 {
   margin-bottom: 50px;
   margin-right: 28px;
 }
+<<<<<<< HEAD
 .box box {
   margin-top: 30px;
 }
+=======
+>>>>>>> 843f83cac4b83290e31c734bd3b492f146c93057
 .steps-box:first-child {
   text-align: center;
   padding-right: 3%;
@@ -236,9 +239,12 @@ h3 {
 .works-step:last-of-type {
   margin-bottom: 80px;
 }
+<<<<<<< HEAD
 .send {
   cursor: pointer;
 }
+=======
+>>>>>>> 843f83cac4b83290e31c734bd3b492f146c93057
 .btn-app img {
   height: 50px;
   width: auto;
@@ -404,6 +410,7 @@ footer {
 .social-links li:last-child {
   margin: 0;
 }
+<<<<<<< HEAD
 
 footer-nav li a:link,
 .footer-nav li a:visited,
@@ -442,3 +449,5 @@ footer-nav li a:link,
 .footer-nav li a:visited {
   font-size: 160%;
 }
+=======
+>>>>>>> 843f83cac4b83290e31c734bd3b492f146c93057
